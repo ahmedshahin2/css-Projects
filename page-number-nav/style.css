@@ -1,0 +1,76 @@
+/*
+        SPACING SYSTEM (px)
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+        FONT SIZE SYSTEM (px)
+        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+        */
+/* main color #087f5d */
+/* gray color #343a40 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  color: #343a40;
+  /* display: flex;
+          justify-content: center; */
+  line-height: 1;
+}
+.btn {
+  border: 1px solid #087f5d;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #087f5d;
+}
+.btn:hover .btn-icon {
+  stroke: #ffffff;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5d;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 200px;
+}
+.link:visited,
+.link:link {
+  background-color: none;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover,
+.link:active,
+.link-3 {
+  background-color: #087f5d;
+  color: #ffffff;
+  /* display: flex;
+          align-items: center;
+          justify-content: center; */
+}
+.link-3:link,
+.link-3:visited {
+  color: #ffffff;
+}
